@@ -1,0 +1,120 @@
+.mainCon {
+  margin: 0;
+  max-width: 100vw;
+  min-height: 100vh;
+  background-image: linear-gradient(to right, #ffffff, 20%, #cffcf1);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+.mainH {
+  color: #0f172a;
+  font-size: 4vw;
+}
+.firstCon {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.timerBgCon {
+  width: 60vw;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.TimerCon {
+  width: 200px;
+  height: 200px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 100px;
+}
+.timerH {
+  font-size: 4vw;
+  color: #00d9f5;
+}
+.textInTimer {
+  color: #0f172a;
+  font-size: 2vw;
+  font-weight: 550;
+}
+.timeSettingCon {
+  width: 40vw;
+}
+.startOrStopCon {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+.startOrStopBton {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  margin-right: 5vw;
+}
+.startOrStopIcon {
+  width: 4vw;
+  padding-right: 15px;
+}
+.setConP {
+  font-size: 2.5vw;
+  color: #0f172a;
+  font-weight: 550;
+}
+.timerSetCon {
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.timerSetP {
+  font-size: 1.2vw;
+  color: #1e293b;
+  font-weight: 550;
+}
+.settingCon {
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.setBton {
+  border: none;
+  background: transparent;
+  font-size: 4vw;
+  font-weight: 550;
+  color: #0f172a;
+  margin: 2vw;
+}
+.setPCon {
+  background-color: #00d9f5;
+  width: 8vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  border-radius: 0.5vw;
+}
+.setP {
+  color: #0f172a;
+  font-size: 3vw;
+}
